@@ -1,0 +1,18 @@
+{
+  "name": "demo-cli",
+  "version": "1.0.0",
+  "description": "learn cli first",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "醉眼笑白风",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^3.0.2",
+    "fs-extra": "^8.1.0"
+  },
+  "bin": {
+    "demo-cli": "./bin/index.js"
+  }
+}
