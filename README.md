@@ -5,4 +5,5 @@
 ```bash 
     npm install
     npm link
+    demo-cli creat my-template
 ```
