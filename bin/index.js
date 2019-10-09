@@ -1,3 +1,9 @@
-#! /usr/bin/env node
-console.log('demo-cli')
-// TODO 填充代码
+const program = require('commander');
+
+program
+    .command('create <projectName>')
+    .action((projectName) => {
+        require('../lib/command/create.js')(projectName);
+    });
+
+program.parse(process.argv);
